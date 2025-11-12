@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jyothirmai">
+    <meta name="description" content="This is website for the little taco shop">
+
+    <title>The Little Taco Shop</title>
+
+    <link rel="icon" href="/images/tacos.jpg">
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to The Little Taco Shop</h1>
+        <nav>
+            todo<br> ----- <br> 1. heading to table- caption 2. details element still have a problem
+
+            <ul>
+                <li><a href="#about">About LTS</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="/images/tacos.jpg" width="250" height="250" alt="tacos picture">
+            <figcaption>Tacos and Drinks</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <h2 id="about">About <abbr title="Little Taco Shop">LTS</abbr></h2>
+            <p><abbr title="Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our shop was built from the <strong>love of tacos</strong>🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.</p>
+
+            <h3>Taco Trivia</h3>
+
+            <details>
+                <summery>Who are you?</summery>
+                <p>Tacos al pastor ("shepherd style") or tacos de adobada are made of thin pork steaks seasoned with adobo seasoning, then skewered and overlapped on one another on a vertical rotisserie cooked and flame-broiled as it spins.</p>
+            </details>
+        </article>
+
+        <hr>
+
+        <article>
+            <h2 id="menu">Our Menu</h2>
+            <table>
+                <caption>Our Tacos</caption>
+                <thead>
+                    <th scope="col">Tacos</th>
+                    <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                    <th scope="col">Price</th>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <th rowspan="3" scope="row">Crunchy</th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.25</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3" scope="row">Soft</th>
+                        <td>1</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>$4.50</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="3">Chips &amp; Salsa $2</td>
+                </tfoot>
+            </table>
+        </article>
+
+        <a href="#">Back to Top</a>
+
+        <hr>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+
+</body>
+
+</html>

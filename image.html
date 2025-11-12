@@ -1,0 +1,77 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jyothirmai">
+    <meta name="description" content="This page shows how many ways we can work with images in html">
+
+    <title>Image</title>
+
+
+    <link rel="icon" href="college.png">
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+
+
+<body>
+    <header>
+        <h1>Image</h1>
+    </header>
+
+    <article>
+        <h3></h3>
+        <section>
+            <h3>Image showing format</h3>
+            <figure>
+                <h4>linking image normally</h4>
+                <img src="back.png" alt="image" style="width:250px; height:200px" loading="lazy">
+                <figcaption>frequency</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h3>Image as link</h3>
+            <a href="https://www.w3schools.com/html/html_images.asp"><img src="back.png" alt="back" style="width: 150px; height: 150px;" loading="lazy"></a>
+
+            <figure>
+                <h4>Image floating - basically involves style</h4>
+                <p><img src="back.png" alt="image" style="float: right;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quis repellat impedit excepturi vitae voluptate quae soluta dolore. Quae commodi culpa a, veniam eaque obcaecati omnis
+                    numquam officia sit aspernatur.</p>
+                <figcaption>
+                    frequency
+                </figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h4><br>we can also put gif as image</h4>
+            <img src="programming.gif" alt="gif" style="width: 100px; height: 100px;">
+        </section>
+    </article>
+
+
+    <article>
+        <h2>Image Map</h2>
+
+        <section>
+            <p>click on the coffee</p>
+            <img src="images/workplace.jpg" alt="image" usemap="#desk" width="400" height="379">
+            <map name="desk">
+              <area shape="circle" coords="340,300,44" alt="Coffee" href="index.htm" >
+              <area shape="rect" coords="35,30,270,350"  alt="laptop"href="laptop.htm">
+              <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+            </map>
+        </section>
+
+
+
+
+
+    </article>
+
+</body>
+
+</html>

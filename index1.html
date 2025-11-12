@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--This says this doc supports html - that's it - don't overthink it.-->
+<html lang="en">
+
+<!--
+  * 
+  *
+  * Text Basics -headings and paras
+  * html entities - < or > symbol on page
+  * inline line elements
+  * lists
+    * ordered - numbers
+    * unorders -bullet points
+    * discription list
+-->
+
+<head>
+    <!--Everything on head is not gonna be visible on webpage
+    * always validate websites-->
+    <!--We can put author and lot more data-->
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Jyothirmai">
+    <!--this info is picked up by search engines or anyone learn more about our website-->
+    <meta name="description" content="Creating html as i learn">
+
+
+    <title>
+        My First Web Page
+    </title>
+    <!-- rel = how does this relate to our werbiste href= hyperlink
+    * heare we are adding fav icon
+    * we can also add css files in head -->
+
+    <link rel="icon" href="back.png" type="image/x-icon">
+
+    <!-- * we can also add css files in head -->
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <!-- * Each page should have only one h1 tag
+          * remaining goes to for sub-headings and text 
+          *header are used for sub topics -->
+    <header>
+        <h1>My Goals- h1</h1>
+        <hr>
+
+        <!-- semanic elements : gives better readability
+    * nav - can have multiple navs, if so, label them
+    * hr
+    * header element - we can have multiple headers in a page
+    * but only one main page
+    * footer - can have multiple
+    * list
+    * section
+    * articels
+    * aside 
+  -->
+        <nav aria-label="primary-navigation">
+
+            <ul>
+                <li> <a href="#learn">html learning</a> </li>
+                <li> <a href="#vacation">vacation</a></li>
+                <li> <a href="#links">links</a></li>
+                <li>
+                    <a href="text_format.html">text format</a>
+                </li>
+                <li>
+                    <a href="image.html">Image</a>
+                </li>
+                <li>
+                    <a href="tags.html">Tags</a>
+                </li>
+                <li>
+                    <a href="styles_Atribute.html">style attribute</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <hr>
+
+
+
+    <main>
+        <article id="learn">
+            <h2> I'm Ready to learn about html-h2</h2>
+            <p>This is my first paragraph -- we use p tag
+            </p>
+
+            <h3> My Daily Schedule-h3 </h3>
+            <p>This is my plan:</p>
+            <ol>
+                <li>... I learn more about webdev</li>
+                <li>... I plan to visit <abbr title="National Institute of Nutrition">NIN</abbr></li>
+                <li>.. I've heard good things about here:
+                </li>
+            </ol>
+
+
+        </article>
+
+        <hr>
+
+        <article id="vacation">
+            <h2>I need a vacation</h2>
+            <p>I've been working really hard and
+                <!--emphasis - inline element-->
+                <em>need a getaway</em>
+            </p>
+
+            <section>
+                <!-- to add space in line in html - br-->
+                <h3>Places i'd like to visit</h3>
+                <ul>
+                    <li>
+                        <p>... I learn more abput webdev</p>
+                    </li>
+                    <li>
+                        <p>... I plan to visit <abbr title="National Institute of Nutrition">NIN</abbr></p>
+                    </li>
+                    <li>
+                        <p>.. I've heard good things about here:</p>
+                        <address>
+              Margaritaville Island Reserve Rivera Cancun<br>
+              Bahia Petmepich pireto morelos,
+              Mexico<br>
+              Colonia Moreles, Mexico 775580
+              </address>
+                    </li>
+
+                </ul>
+            </section>
+
+
+            <section>
+                <h3>Places i'd like to avoid </h3>
+                <!--TODO: Add more plces : this is seen by public on inspect though its not shown on webpage-->
+                <!--nbsp; adds a little space-->
+                <p>
+                    <br>&nbsp;&nbsp;&nbsp;... Anywhere cold
+                    <!--bold - inline element-->
+                    <strong>No way!</strong>
+                    <br>&nbsp;&nbsp;&nbsp;... I plan
+                    <br>&nbsp;&nbsp;&nbsp;.. I use resouce
+                </p>
+
+            </section>
+
+
+            <hr>
+
+
+            <section>
+                <h3>Places I may visit
+                </h3>
+                <!--
+      dl- description list
+      dt - description term
+      dd - dscription definition or exapansion
+    -->
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>I hear this is <strong>Cold</strong>!</dd>
+
+                    <dt>South Pole</dt>
+                    <dd>This is also cold</dd>
+
+                    <dt>Mountain Tops</dt>
+                    <dd>These are also cold</dd>
+                </dl>
+            </section>
+
+
+            <aside>
+                <details>
+                    <summary>My <mark>vacation!!</mark> </summary>
+                    <p>when will i go???</p>
+                </details>
+            </aside>
+
+        </article>
+
+
+        <hr>
+
+        <article id="links">
+            <h3>links</h3>
+            <a href="https://validator.w3.org/">html validator website</a>
+
+
+
+            <hr>
+
+            <!-- href holds tthe link and download holds the name its gonna give when it downloaded in client pc-->
+            <a href="back.png" download="Image">download Image</a>
+
+
+        </article>
+
+        <hr>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            <a href="#">Go up</a><br> &lt;&lt; &lt; &copy;
+        </p>
+        <p>
+            <a href="aboutme.html">Jyothirmai</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="/">Back to Home</a>
+        </p>
+    </footer>
+</body>
+
+</html>

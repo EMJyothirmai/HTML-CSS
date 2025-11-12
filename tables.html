@@ -1,0 +1,120 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jyothirmai">
+    <meta name="description" content="This page is about creating tables and about them">
+
+    <link rel="icon" href="images/workplace.jpg">
+    <title>HTML Tables</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        table {
+            border: 1px;
+            border-color: 1px solid blue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>HTML Tables</h1>
+    <article>
+        <h2>Table</h2>
+
+        <table>
+            <!--tells about table-->
+            <caption>React vs Angular</caption>
+            <thead>
+                <th>Angular</th>
+                <th>React</th>
+            </thead>
+            <!-- <tr>
+                <th>ANgular</th>
+                <th>React</th>
+            </tr> -->
+            <tbody>
+                <tr>
+                    <td>Angular</td>
+                    <td>React</td>
+                </tr>
+                <tr>
+                    <th>morning</th>
+                    <td>
+                        <time datetime="8:00">8am</time>-<time datetime="17:00">5pm</time> </td>
+                    </td>
+                </tr>
+                <tr>
+                    <th>afternoon</th>
+                    <td>whatever</td>
+                </tr>
+                <tr>
+                    <th>evening</th>
+                    <td colspan="2">qwerty</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <td colspan="2"> blah blah blah</td>
+            </tfoot>
+        </table>
+
+        <br><br>
+        <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">Morning</th>
+                    <td><time datetime="8:00">8am</time>-<time datetime="12:00">12pm</time></td>
+                    <td>
+                        Html
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Afternoon</th>
+                    <td><time datetime="12:00">12am</time>-<time datetime="15:00">3pm</time></td>
+                    <td>
+                        Spring
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Evening</th>
+                    <td><time datetime="15:00">3pm</time>-<time datetime="17:00">5pm</time></td>
+                    <td>
+                        React
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="2">Night</th>
+                    <td>Free</td>
+                    <td rowspan="2">All other times</td>
+                </tr>
+
+                <tr>
+                    <td>sleep</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">And that's what I do everyday, 5 days a week</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </article>
+
+</body>
+
+</html>
+
+</html>
